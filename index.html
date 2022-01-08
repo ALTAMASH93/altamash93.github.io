@@ -1,1 +1,171 @@
-"Hello World" 
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Storage Report - Automation Servers</title>
+
+    <style>
+        .small-font {
+            font-size: 13px;
+            font-style: italic;
+            font-weight: normal;
+        }
+        
+        .medium-font {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        tr {
+            line-height: 50px;
+            min-height: 50px;
+            height: 50px;
+        }
+        
+        h4 {
+            margin-top: 0;
+            padding-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            text-align: center;
+        }
+        
+        h6 {
+            margin-top: 0;
+            padding-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+
+</head>
+
+<body>
+    <br>
+    <h4 class="text-muted">Storage Report - Automation Servers</h4>
+    <br>
+    <h6 class="text-muted">2022-January-08 19:15 (Manila time)</h6>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+    <div style="margin-top: 20px;"></div>
+    <table class="table table-bordered" style="line-height: 3">
+        <thead>
+            <tr class="table-dark">
+                <th scope="col">#</th>
+                <th scope="col">Hostname</th>
+                <th scope="col">Drive</th>
+                <th scope="col">Total Space (GB)</th>
+                <th scope="col">Free Space (GB)</th>
+                <th scope="col">Server Info</th>
+            </tr>
+        </thead>
+        <tbody><tr class="table-danger medium-font">
+    <th scope="row">1</th>
+    <td>EC2AMAZ-5NT0MAU</td>
+    <td>D:</td>
+    <td>30.00</td>
+    <td>6.18</td>
+    <td class="small-font">LMX Server - Sydney, Managed by Yogesh, Nagu</td>
+</tr><tr class="table-danger medium-font">
+    <th scope="row">2</th>
+    <td>EC2AMAZ-5NT0MAU</td>
+    <td>C:</td>
+    <td>100.00</td>
+    <td>5.85</td>
+    <td class="small-font">LMX Server - Sydney, Managed by Yogesh, Nagu</td>
+</tr><tr class="table-active medium-font">
+    <th scope="row">3</th>
+    <td>EC2AMAZ-CG9VLON</td>
+    <td>C:</td>
+    <td>130.00</td>
+    <td>88.44</td>
+    <td class="small-font">Jenkins Master - AWS EC2, managed by Altamash</td>
+</tr><tr class="table-danger medium-font">
+    <th scope="row">4</th>
+    <td>SGP-AWS-EC2</td>
+    <td>C:</td>
+    <td>70.00</td>
+    <td>6.92</td>
+    <td class="small-font">AWS EC2 - Singapore, used by: Francis, Nagu</td>
+</tr><tr class="table-danger medium-font">
+    <th scope="row">5</th>
+    <td>SGP-AWS-EC2</td>
+    <td>D:</td>
+    <td>30.00</td>
+    <td>15.63</td>
+    <td class="small-font">AWS EC2 - Singapore, used by: Francis, Nagu</td>
+</tr><tr class="table-active medium-font">
+    <th scope="row">6</th>
+    <td>WSAMZN-0O9C00Q3</td>
+    <td>C:</td>
+    <td>80.00</td>
+    <td>36.91</td>
+    <td class="small-font">AWS Workspace - Swathi, Salesforce Server</td>
+</tr><tr class="table-active medium-font">
+    <th scope="row">7</th>
+    <td>WSAMZN-0O9C00Q3</td>
+    <td>D:</td>
+    <td>100.00</td>
+    <td>94.58</td>
+    <td class="small-font">AWS Workspace - Swathi, Salesforce Server</td>
+</tr><tr class="table-active medium-font">
+    <th scope="row">8</th>
+    <td>WSAMZN-UK82EOB4</td>
+    <td>C:</td>
+    <td>175.00</td>
+    <td>102.44</td>
+    <td class="small-font">Internal Jenkins Server, Managed by Altamash</td>
+</tr><tr class="table-active medium-font">
+    <th scope="row">9</th>
+    <td>WSAMZN-UK82EOB4</td>
+    <td>D:</td>
+    <td>100.00</td>
+    <td>92.28</td>
+    <td class="small-font">Internal Jenkins Server, Managed by Altamash</td>
+</tr><tr class="table-active medium-font">
+    <th scope="row">10</th>
+    <td>sf-2</td>
+    <td>C:</td>
+    <td>99.89</td>
+    <td>59.88</td>
+    <td class="small-font">GCP - Tosca - Used by Pragnya</td>
+</tr><tr class="table-active medium-font">
+    <th scope="row">11</th>
+    <td>vm1-b2ms-win10-</td>
+    <td>D:</td>
+    <td>16.00</td>
+    <td>14.62</td>
+    <td class="small-font">Azure - Tosca - Used by Aakruti</td>
+</tr><tr class="table-active medium-font">
+    <th scope="row">12</th>
+    <td>vm1-b2ms-win10-</td>
+    <td>C:</td>
+    <td>126.51</td>
+    <td>66.84</td>
+    <td class="small-font">Azure - Tosca - Used by Aakruti</td>
+</tr></tbody>
+</table>
+
+</body>
+
+</html>
